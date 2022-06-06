@@ -2,37 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homepage-header{
+  height: 2rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-link {
+  
+  text-decoration: none;
+  display: inline-block;
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.img1 > img{
+  margin-left: 30%;
+  right: -30%;
+  margin-top: 3%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-group{
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.form-outline > input{
+  width: 35rem;
+  height: 60px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-sizing: border-box;
+  border-radius: 1px;
+  
+}
+
+.social-links{
+ margin-top: 1rem;
+ margin-left: 25%;
+}
+
+.social-links > p {
+color: #A4B2BF;
+}
+
+.social-links > p > a{
+  color: black;
+  text-decoration: none;
+  
+}
+
+.third-component{
+  background-color: #00CEC9;
+}
+
+.multiple-btns{
+  padding-bottom: 5rem;
+}
+
+.uploading-button{
+color: #202931;
+background-color: #fcfcfc;
+cursor: pointer;
+text-decoration: none;
+padding-top: 1rem;
+padding-bottom: 1rem !important;
+padding-left: 3rem;
+padding-right: 3rem;
+border: 1px solid transparent;
+border-radius: 5px;
+}
+
+.uploading-button :hover{
+background-color: #E9FEFD;
+border-color: #e9fefd;
+font-style: #202931;
+}
+
+.read-more-link{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+.footer {
+background-color:lightgrey;
+ max-width: 700;
+ height: 300px;
+}
+.box{
+  width:60px;
+  height: 80%;
+}
+.box1{
+  margin-left:20%;
+  margin-top: -19%;
+  width:60px;
+  height:80%;
+}
+.box2{
+  
+  margin-left:40%;
+  margin-top: -19%;
+  width:150px;
+  height:70%;
 }
